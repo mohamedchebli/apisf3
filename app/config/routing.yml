@@ -1,0 +1,12 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+articles:
+    type:     rest
+    resource: AppBundle\Controller\ArticleController
+users:
+    type:     rest
+    resource: AppBundle\Controller\UserController
+auth-tokens:
+    type:     rest
+    resource: AppBundle\Controller\AuthTokenController
